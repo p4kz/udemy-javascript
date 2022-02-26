@@ -27,8 +27,6 @@
 
         // console.log(soma());
 
-
-
 //a arrow function substitui a palavra 
 //function no codigo e em alguns 
 //casos vale a pena usar a function escrita e 

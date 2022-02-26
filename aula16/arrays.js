@@ -9,7 +9,7 @@ console.log(typeof alunos);
 console.log(alunos instanceof Array);
 
 // alunos.push ('luiza');
-// alunos.push ('Eduardo');
+// alunos.push ('Eduardo'); // mandando para array
 
 // console.log(alunos.slice(0, 3)); //pegar uma orden de nomes 
 
