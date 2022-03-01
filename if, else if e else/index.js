@@ -47,3 +47,9 @@ if (hora >= 0 && hora <= 11) {
 } else {
     console.log("Acima ou Abaixo de qualquer horario dito na tabela")
 }
+
+//se isso (hora >= 0 && hora <= 11) ocorrer, faça isso {código}
+// se não faça isso {código}
+
+// assim que ele chega em uma condição verdadeira ele pula pro proximo bloco 
+// se precisa de mais condições else if. 
