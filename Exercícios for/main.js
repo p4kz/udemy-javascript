@@ -6,7 +6,7 @@ const elementos = [
 ]
 
 const container = document.querySelector('.container'); // <- indentificando caixa do html  
-const div = document.createElement('div');              // <- criando div main
+const div = document.createElement('div');              // <- criando div main( div que vai guardar outras tags )
 
 for (let i = 0; i < elementos.length; i++) {            // <- instruindo for
     let {tag, texto} = elementos[i];                    // <- o que eu quero desestruturar e o indice
