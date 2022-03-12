@@ -34,11 +34,11 @@
     /* O usuario precisa de dois parâmetros identicos ao da base de dados
     "usuario e senha". (usuario && senha). */
 
-    const entrar = usuario === 'Eric' && senha === '12345';   //true
+    const entrar1 = usuario === 'Eric' && senha === '12345';   //true
 
     /* O usuario precisa de um dos parâmetros identicos ao da base de dados 
     "usuario ou senha". (usuario || senha). */
 
-    const entrar = usuario === 'Eric' || senha === 'abcde';    // true 
+    const entrar2 = usuario === 'Eric' || senha === 'abcde';    // true 
 
-    console.log(entrar);
+    console.log(entrar2);
