@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c9c9;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 300px;
+    min-height: 200px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container li {
+    margin-left: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.yellow {
+    color: yellow;
+}
+.red {
+    color: red;
+}
