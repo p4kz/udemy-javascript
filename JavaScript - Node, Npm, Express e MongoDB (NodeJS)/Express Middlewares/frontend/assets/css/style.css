@@ -19,6 +19,7 @@ body {
   min-height: 200px;
   background: #fefefe;
   padding: 20px;
+  margin: 0 12px 0 12px;
 }
 
 h1 {
@@ -26,19 +27,21 @@ h1 {
   margin-bottom: 10px;
 }
 
-.senha-gerada {
-  font-size: 34px;
-  color: #222;
+input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  color: #121219b7;
 }
 
-input[type="checkbox"] {
-  margin-left: 4px;
-  width: 15px;
-  height: 15px;
+input:focus {
+  border: 2px solid #121219bd;
 }
 
 button {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
   height: 40px;
 }
