@@ -1,0 +1,24 @@
+
+<%- include('includes/head') %>
+
+<section class="container">
+  <h1>
+    <!-- injetando variavel no ejs -->
+    <!-- <%= titulo %> -->
+
+    <!-- if  -->
+
+    <% if(typeof titulo !== 'undefined') { %>
+      <%= titulo %>
+    <% } else { %>
+      O titulo não foi enviado
+    <%}%>
+
+    <!-- for  -->   
+    <% numeros.forEach(num => { %>
+      <%= num %>
+    <%}) %>
+  </h1>
+</section>
+
+<%- include('includes/footer') %>
