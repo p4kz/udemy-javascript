@@ -1,0 +1,32 @@
+
+<%- include('includes/head') %>
+
+<section class="container">
+  <h1>
+    <!-- injetando variavel no ejs -->
+    <!-- <%= titulo %> -->
+
+    <!-- if  -->
+
+    <% if(typeof titulo !== 'undefined') { %>
+      <%= titulo %>
+    <% } else { %>
+      O titulo não foi enviado
+    <%}%>
+
+    <!-- for  -->   
+    <% numeros.forEach(num => { %>
+      <%= num %>
+    <%}) %>
+  </h1>
+  
+  <!-- Usando o csrf token em form -->
+  <form action="/" method="post">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+    <input type="text" name="cliente">
+    <button>Enviar</button>
+  </form>
+
+</section>
+
+<%- include('includes/footer') %>
